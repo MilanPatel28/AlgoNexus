@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIFO Algorithm</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/FIFO.css" />
+  </head>
+
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar-light">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" style="color: white;" href="../html/homepage.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" style="color: white;" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Algorithms</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../html/SJF.html">Shortest Job First</a></li>
+            <li><a class="dropdown-item" href="../html/dining_philosophers.html">Dining Philosoper's Problem</a></li>
+            <li><a class="dropdown-item" href="../html/Look_CLook.html">Look / C-Look</a></li>
+            <li><a class="dropdown-item" href="../html/FIFO.html">FIFO Page Replacement</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: white;" href="../html/AboutUs.html">About Us</a>
+        </li>
+      </ul>
+    </nav>
+
+    <video autoplay muted loop src="../videos/pattern-85590.mp4"></video>
+    <div class="card main">
+      <div class="card-header" id="heading">
+        FIFO Page Replacement Algorithm
+      </div>
+
+      <div class="card-body">
+        <div class="inputsection">
+          <div class="input-group mb-3 nof">
+            <span class="input-group-text" id="inputGroup-sizing-default"
+              >No. of Frames</span
+            >
+            <input
+              type="text"
+              class="form-control noofframes"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-default"
+            />
+          </div>
+          <div class="input-group mb-3 ref">
+            <span class="input-group-text" id="inputGroup-sizing-default"
+              >References</span
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="references"
+              placeholder="Ex. 1 2 3 4 2 1 5 6 2 1 2 3"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-default"
+            />
+          </div>
+
+          <div class="btndiv">
+            <button
+              onclick="pushData()"
+              type="button"
+              class="btn btn-outline-success"
+            >
+              Submit
+            </button>
+            <button
+              onclick="resetPage()"
+              type="button"
+              class="btn btn-outline-danger"
+            >
+              Reset
+            </button>
+          </div>
+        </div>
+        <div class="result">
+          <div class="output">Output</div>
+          <div class="part1" style="display: inline-block;"></div>
+          <div class="part2" style="display: inline-block;"></div>
+          <h3 id="outputHeading">Output will be generated here</h3>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+      crossorigin="anonymous"></script>
+    <script src="../backend/js/FIFO.js"></script>
+  </body>
+</html>
