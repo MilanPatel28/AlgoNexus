@@ -74,6 +74,10 @@ button{
   margin: 20px 0 15px 2px;
 }
 
+.btndiv {
+  text-align: center;
+}
+
 .result {
   margin-top: 40px;
   align-items: center;
@@ -84,6 +88,7 @@ button{
   border-radius: 8px;
   background-color: #f7f7f7f4;
   padding-left: 50px;
+  visibility: hidden;
 }
 
 .output {

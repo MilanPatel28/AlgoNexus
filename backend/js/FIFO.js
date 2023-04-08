@@ -1,8 +1,6 @@
 // Function for pushing the data for calculations
 function pushData() {
-  // disabling the output heading
-  let temp = document.getElementById("outputHeading");
-  temp.style.display = "none";
+  $(".result").css("visibility","visible");
 
   // Declaring the local variable
   pages = [];
