@@ -11,4 +11,4 @@ The 4 algorithms include :
 
 In this website you will get to experience:
   - What are the algorithms all about
-  - How the alogrithms produce results for different outputs
+  - How the algorithms produce results for different outputs
