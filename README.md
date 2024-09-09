@@ -35,19 +35,25 @@ Explore the project and see the algorithms in action here:
 
 The platform provides enhanced visualization to make it easier to comprehend the concepts behind these algorithms. Users can input different values and see the algorithm's step-by-step execution, making abstract concepts more concrete.
 
-### Algorithm Demonstrations
+### HomePage and Algorithm Demonstrations
+
+- **HomePage**:
+![image](https://github.com/user-attachments/assets/27cf4bd2-ed9e-46d6-a1b0-e75e46809eae)
+
+
+![image](https://github.com/user-attachments/assets/f0659840-1e3d-48a5-8b4b-c6f97471e83a)
 
 - **Shortest Job First (Non-Preemptive):**  
-  ![SJF Visualization](https://oslab-e7a1e.web.app/html/SJF.html)
+![image](https://github.com/user-attachments/assets/805e4084-2b42-4a5e-bc40-2649918718a7)
 
 - **Dining Philosopher's Problem:**  
-  ![Dining Philosophers Visualization](https://oslab-e7a1e.web.app/html/dining_philosophers.html)
+![image](https://github.com/user-attachments/assets/74a2639b-82e4-40bc-bd7e-e8b45f20549c)
 
 - **Look/C-Look Disk Scheduling:**  
-  ![Look/C-Look Visualization](https://oslab-e7a1e.web.app/html/Look_CLook.html)
+![image](https://github.com/user-attachments/assets/907725ce-f83a-4875-acfe-dc81c7b06ff7)
 
 - **FIFO Page Replacement:**  
-  ![FIFO Visualization](https://oslab-e7a1e.web.app/html/FIFO.html)
+![image](https://github.com/user-attachments/assets/cdf5c81b-d07f-4de3-9e62-11df2a9e1013)
 
 ## 🛠️ Technologies Used
 
@@ -65,12 +71,10 @@ To run the project locally:
    ```
 
 2. **Open the Project Files**:
-
 Use any code editor like ![Visual Studio Code](https://code.visualstudio.com/), ![Sublime Text](https://www.sublimetext.com/), or ![Atom](https://atom-editor.cc/).
 After installing a code editor, open the cloned project folder.
 
-3. Run the Project:
-
+3. **Run the Project**:
 Open the index.html file in your web browser by right-clicking the file in your code editor or simply dragging the file into your browser window.
 
 Feel free to contribute to the project by raising issues or making pull requests. We welcome any feedback or suggestions to improve the learning experience.
