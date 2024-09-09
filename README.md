@@ -71,7 +71,7 @@ To run the project locally:
    ```
 
 2. **Open the Project Files**:
-Use any code editor like ![Visual Studio Code](https://code.visualstudio.com/), ![Sublime Text](https://www.sublimetext.com/), or ![Atom](https://atom-editor.cc/).
+Use any code editor like [Visual Studio Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com/), or [Atom](https://atom-editor.cc/).
 After installing a code editor, open the cloned project folder.
 
 3. **Run the Project**:
